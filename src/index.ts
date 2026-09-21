@@ -1,4 +1,5 @@
-/**
+import http from 'http';
+http.createServer((_, res) => res.end('OK')).listen(process.env.PORT || 10000);/**
  * Nightscout LibreLink Up Uploader/Sidecar
  * Script written in TypeScript that uploads CGM readings from LibreLink Up to Nightscout.
  *
