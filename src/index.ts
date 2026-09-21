@@ -1,7 +1,7 @@
 import http from 'http';
 http.createServer((_, res) => res.end('OK')).listen(process.env.PORT || 10000);/**
 process.env.NIGHTSCOUT_URL = 'https://seker-takip-w4wr.onrender.com';
-process.env.NIGHTSCOUT_API_TOKEN = '11dc821a36e9ffeb184be5e378ad52bc726e6efd';
+process.env.NIGHTSCOUT_API_TOKEN = 'kopru-ec108349626025c9';
  * Nightscout LibreLink Up Uploader/Sidecar
  * Script written in TypeScript that uploads CGM readings from LibreLink Up to Nightscout.
  *
